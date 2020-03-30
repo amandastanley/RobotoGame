@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+canvas {
+  border: 3px solid #78909c;
+  background: -webkit-linear-gradient(10deg,white,white);
+  //opacity:0.75;
+}
+.gamething{
+  position: relative;
+  display: block;
+  margin: auto;
+  width:300px;
+  height:300px;
+}
+.title{
+  width:auto;
+  -webkit-text-stroke-width: 0.0001px;
+  -webkit-text-stroke-color: black; 
+  font-size:60px;
+  font-family: 'Press Start 2P';
+  letter-spacing:2px;
+  text-align:center;
+  color: #78909c;
+}
+html{
+  background-color:#B8ECE0;
+}
